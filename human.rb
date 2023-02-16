@@ -1,7 +1,7 @@
 require './thinkable'
 class Human < Animal
   include Thinkable
-  attr_accessor :name, :age, :hobby
+  attr_accessor :hobby
   def initialize(name, age, hobby)
     self.name = name
     self.age = age
